@@ -15,7 +15,7 @@ dependencies = [
     "gradio-tools>=0.0.9",
     "ipykernel>=6.30.1",
     "ipywidgets>=8.1.7",
-    "langchain[openai]>=0.3.27",
+    "langchain[openai]>=1.0",
     "langchain-community>=0.3.30",
     "langchain-openai>=0.3.34",
     "langgraph>=0.6.8",
@@ -41,9 +41,18 @@ dependencies = [
     "psycopg2-binary>=2.9.11",
     "fastmcp>=2.12.5",
     "pypdf>=6.1.1",
+<<<<<<< HEAD
     "pdfminer>=20191125",
 ]
 [tool.uv]
 required-environments = [
   "sys_platform == 'darwin' and platform_machine == 'x86_64'"
+=======
+    "numexpr>=2.14.1",
+    "langchain-tavily>=0.2.12",
+    "ngrok>=1.4.0",
+    "langchain-mcp-adapters>=0.1.12",
+    "langgraph-api>=0.4.48",
+    "langsmith>=0.4.31",
+>>>>>>> 7c0f88b1b3a85978b9b72a52c5a66401d1cfe6c9
 ]
